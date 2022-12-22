@@ -30,3 +30,6 @@ Step4: Source Code Management
 Step5: Build Trigger
 	5.1Select poll SCM 
 	5.2 Add schedule description(* * * * *)
+
+
+// done By Ashu patil
