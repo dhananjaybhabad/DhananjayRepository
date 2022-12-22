@@ -1,0 +1,32 @@
+step1: Add JAVA_HOME to jenkins
+	1.1:Dashboard
+	1.2Manage Jenkins
+	1.3Global Tool Configuration
+	1.4 Add
+		 Name:JAVA_HOME
+		Java-Home:C:\Program Files\Java\jdk-17.0.4
+	1.5: Un-checked  the "Install Automatically"
+	1.6 Press Save and Apply
+
+Step2: Add New Item:
+            2.1  Add the project "Your Name"
+            2.2 Select Freestyle
+            2.3	press create
+
+Step3: General
+	3.1 Enter the project description	
+	3.2 Checked the GIT hub
+	3.3 https://Rahulstar177@bitbucket.org/rahulstar177/studentmanagementsystem.git
+
+or
+
+https://github.com/dhananjaybhabad/demo.git	 	
+
+Step4: Source Code Management
+	4.1 Select Git
+	4.2Add repository URL https://Rahulstar177@bitbucket.org/rahulstar177/studentmanagementsystem.git
+	4.3Add credential (jenkins User name /Password)
+	4.4press ADD
+Step5: Build Trigger
+	5.1Select poll SCM 
+	5.2 Add schedule description(* * * * *)
